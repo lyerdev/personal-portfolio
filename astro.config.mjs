@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://lyerdev.github.io',
+	site: 'https://lyerdev.github.io/personal-portfolio',
 	base: 'personal-portfolio/src/content/docs/index.mdx',
 	integrations: [
 		starlight({
