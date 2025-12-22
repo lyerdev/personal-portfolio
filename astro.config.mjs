@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://lyerdev.github.io',
-	base: '/content/docs/index.mdx',
+	base: 'personal-portfolio/src/content/docs/index.mdx',
 	integrations: [
 		starlight({
 			title: 'Lyle Zucker',
